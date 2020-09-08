@@ -14,7 +14,7 @@ public class Vehicle_category {
     @Column(unique = true,nullable = false)
     private String vehicle_category_name;
     @OneToMany(mappedBy = "vehicleCategory")
-    List<Vehicle_subcategory>vehicle_subcategories;
+    List<com.upgrad.HireWheels1.entities.Vehicle_subcategory>vehicle_subcategories;
 
 
     public Vehicle_category(){

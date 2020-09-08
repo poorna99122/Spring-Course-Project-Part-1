@@ -15,12 +15,12 @@ public class Vehicle {
     private String vehicle_model;
     private String vehicle_number;
     @OneToMany(mappedBy = "vehicle")
-    List<Vehicle_subcategory> vehicle_subcategories;
+    List<com.upgrad.HireWheels1.entities.Vehicle_subcategory> vehicle_subcategories;
     @Column( nullable = false)
     private String color;
     @OneToMany(mappedBy = "vehicle", fetch = FetchType.EAGER , cascade = CascadeType.ALL)
     //@JoinColumn(name="location_id")
-     List<com.upgrad.hirewheels.entities.Location> locations;
+     List<com.upgrad.HireWheels1.entities.Location> locations;
 
     @OneToMany(mappedBy = "vehicle")
     List<Fuel_type> fuel_types;

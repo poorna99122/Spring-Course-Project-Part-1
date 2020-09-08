@@ -13,7 +13,7 @@ public class Fuel_type {
     @Column(nullable = false,unique = true)
     private String fuel_type;
     @ManyToOne
-    private com.upgrad.hirewheels.entities.Vehicle vehicle;
+    private com.upgrad.HireWheels1.entities.Vehicle vehicle;
 
 
 

@@ -15,7 +15,7 @@ public class Location {
     @Column(nullable = false)
     private String address;
    @ManyToOne
-   private com.upgrad.hirewheels.entities.City city;
+   private com.upgrad.HireWheels1.entities.City city;
     private int city_id;
     @Column(nullable = false)
     private int pincode;

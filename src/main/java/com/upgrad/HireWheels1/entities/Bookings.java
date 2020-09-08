@@ -28,7 +28,7 @@ public class Bookings {
     @Column( nullable = false)
     private int amount;
     @ManyToOne
-    private com.upgrad.hirewheels.entities.Location location;
+    private com.upgrad.HireWheels1.entities.Location location;
     private int location_id;
 
     @ManyToOne

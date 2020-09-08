@@ -1,5 +1,7 @@
 package com.upgrad.HireWheels1.entities;
 
+import com.upgrad.HireWheels1.entities.Vehicle;
+import com.upgrad.HireWheels1.entities.Vehicle_category;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -15,13 +17,13 @@ public class Vehicle_subcategory {
     @Column(nullable = false)
     private int price_per_day;
     @ManyToOne
-   private com.upgrad.HireWheels1.entities.Vehicle_category vehicleCategory;
+    private Vehicle_category vehicleCategory;
 
     //private int vehicle_category_id;
     @ManyToOne
-    com.upgrad.HireWheels1.entities.Vehicle vehicle;
+    Vehicle vehicle;
 
-
+   /**
     public Vehicle_subcategory(){
 
     }
@@ -33,4 +35,5 @@ public class Vehicle_subcategory {
         //this.vehicle_category_id=vehicle_category_id;
 
     }
+    **/
 }
