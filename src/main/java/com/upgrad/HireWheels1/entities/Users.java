@@ -58,4 +58,6 @@ public class Users {
     }
 
 
+    public Users(String admin, String admin1, String s, String s1, String s2, Object admin2, double v) {
+    }
 }

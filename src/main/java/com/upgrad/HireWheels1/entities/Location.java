@@ -35,5 +35,6 @@ public class Location {
     }
 
 
-
+    public Location(String worli, String s, String s1, City mumbai) {
+    }
 }

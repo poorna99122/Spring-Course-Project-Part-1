@@ -25,4 +25,7 @@ this.fuel_type=fuel_type;
 this.fuel_type_id=fuel_type_id;
     }
 
+    public Fuel_type(String fuel_type) {
+        this.fuel_type = fuel_type;
+    }
 }

@@ -24,6 +24,6 @@ public class Role {
     }
 
 
-
-
+    public Role(String user) {
+    }
 }

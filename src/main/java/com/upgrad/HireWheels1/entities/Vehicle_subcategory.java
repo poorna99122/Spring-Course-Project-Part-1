@@ -36,4 +36,19 @@ public class Vehicle_subcategory {
 
     }
     **/
+
+   public Vehicle_subcategory(){
+
+   }
+
+   public Vehicle_subcategory(String vehicle_subcategory_name, int price_per_day, Vehicle_category vehicleCategory){
+       this.vehicle_subcategory_name=vehicle_subcategory_name;
+       this.price_per_day=price_per_day;
+       this.vehicleCategory=vehicleCategory;
+
+   }
+
+
+
+
 }

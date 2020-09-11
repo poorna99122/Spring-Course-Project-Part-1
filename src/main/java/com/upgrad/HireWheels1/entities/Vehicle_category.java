@@ -1,5 +1,6 @@
 package com.upgrad.HireWheels1.entities;
 
+import com.upgrad.HireWheels1.dao.Vehicle_categoryDAO;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -24,4 +25,16 @@ public class Vehicle_category {
         this.vehicle_category_id=vehicle_category_id;
         this.vehicle_category_name=vehicle_category_name;
     }
+
+    public Vehicle_category(String vehicle_category_name) {
+        this.vehicle_category_name=vehicle_category_name;
+
+    }
+
+    public Vehicle_categoryDAO findByName(String car){
+        return  null;
+
+    }
+
+
 }
