@@ -6,4 +6,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository("usersDAO")
 public interface UsersDAO extends JpaRepository<Users,Integer> {
+
+
+    public static UsersDAO findByUsername(Object username) {
+        return null;
+    }
 }

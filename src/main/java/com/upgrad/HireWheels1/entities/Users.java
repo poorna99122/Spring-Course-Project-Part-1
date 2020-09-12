@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import javax.xml.bind.annotation.XmlType;
 import java.util.List;
 
 
@@ -59,5 +58,9 @@ public class Users {
 
 
     public Users(String admin, String admin1, String s, String s1, String s2, Object admin2, double v) {
+    }
+
+    public Object getUsername() {
+        return null;
     }
 }
